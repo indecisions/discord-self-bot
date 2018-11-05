@@ -7,9 +7,9 @@ client.on('message', message => {
   if (message.content.startsWith(prefix + 'self')) {
      let Embed1 = new Discord.RichEmbed()
   .setTitle("vodka | selfbot")
-     .setThumbnail("")
-     //setDescription("contact")
-     .addField("website", "https://indecisions.github.io", false)
+  .setThumbnail("")
+  //setDescription("contact")
+  .addField("website", "https://indecisions.github.io", false)
   .addField("twitter" ,"[vodka](https://twitter.com/)" ,false)
   .addField("discord", "[vodka#5732](https://discordapp.com)", false)
   .addField("github", "[vodka](https://github.com/indecisions)", false)
