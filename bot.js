@@ -14,7 +14,7 @@ client.on('message', message => {
   .addField("discord", "[vodka#5732](https://discordapp.com)", false)
   .addField("github", "[vodka](https://github.com/indecisions)", false)
   .setColor("#8B008B")
-     .setFooter("suck me off")
+  .setFooter("suck me off")
      //.setTimestamp()
 
 
